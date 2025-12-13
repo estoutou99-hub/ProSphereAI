@@ -1,0 +1,18 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/cocobohui1970/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm exec eas login
+7 verbose argv "exec" "--" "eas" "login"
+8 verbose logfile logs-max:10 dir:/home/cocobohui1970/.npm/_logs/2025-12-13T22_32_53_964Z-
+9 verbose logfile /home/cocobohui1970/.npm/_logs/2025-12-13T22_32_53_964Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 verbose cwd /home/cocobohui1970
+13 verbose os Linux 6.6.30-02726-gb84bbdf6955e
+14 verbose node v18.20.8
+15 verbose npm  v10.8.2
+16 verbose exit 1
+17 verbose code 1

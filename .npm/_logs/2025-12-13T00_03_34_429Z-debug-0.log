@@ -1,0 +1,19 @@
+0 verbose cli /usr/bin/node /usr/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v18.20.8
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/cocobohui1970/projects/AI-Suite/AI-Suite/.npmrc
+5 silly config load:file:/home/cocobohui1970/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm exec expo config --json
+8 verbose argv "exec" "--" "expo" "config" "--json"
+9 verbose logfile logs-max:10 dir:/home/cocobohui1970/.npm/_logs/2025-12-13T00_03_34_429Z-
+10 verbose logfile /home/cocobohui1970/.npm/_logs/2025-12-13T00_03_34_429Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /home/cocobohui1970/projects/AI-Suite/AI-Suite
+14 verbose os Linux 6.6.30-02726-gb84bbdf6955e
+15 verbose node v18.20.8
+16 verbose npm  v10.8.2
+17 verbose exit 0
+18 info ok

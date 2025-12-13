@@ -1,0 +1,9 @@
+{
+  "auth": {
+    "sessionSecret": "{\"id\":\"74225e13-59aa-419b-ab7b-70beaaafc649\",\"version\":1,\"expires_at\":2081116800000}",
+    "userId": "35c06e94-c472-4b34-92d0-ef5e2d0d2490",
+    "username": "moneyfarc89",
+    "currentConnection": "Username-Password-Authentication"
+  },
+  "uuid": "fc33b6ff-8a57-4e75-b67f-0e45b256b534"
+}

@@ -1,0 +1,114 @@
+2025-12-07T01:13:48.039Z PluginError: Failed to resolve plugin for module "expo-splash-screen" relative to "/mnt/chromeos/MyFiles/Downloads/AI-Suite/AI-Suite"
+2025-12-07T01:13:48.039Z     at resolvePluginForModule (/usr/lib/node_modules/eas-cli/node_modules/@expo/config-plugins/build/utils/plugin-resolver.js:96:9)
+2025-12-07T01:13:48.039Z     at resolveConfigPluginFunctionWithInfo (/usr/lib/node_modules/eas-cli/node_modules/@expo/config-plugins/build/utils/plugin-resolver.js:145:7)
+2025-12-07T01:13:48.039Z     at resolveConfigPluginFunction (/usr/lib/node_modules/eas-cli/node_modules/@expo/config-plugins/build/utils/plugin-resolver.js:136:7)
+2025-12-07T01:13:48.039Z     at withStaticPlugin (/usr/lib/node_modules/eas-cli/node_modules/@expo/config-plugins/build/plugins/withStaticPlugin.js:85:70)
+2025-12-07T01:13:48.039Z     at /usr/lib/node_modules/eas-cli/node_modules/@expo/config-plugins/build/plugins/withPlugins.js:30:84
+2025-12-07T01:13:48.039Z     at Array.reduce (<anonymous>)
+2025-12-07T01:13:48.039Z     at withPlugins (/usr/lib/node_modules/eas-cli/node_modules/@expo/config-plugins/build/plugins/withPlugins.js:30:18)
+2025-12-07T01:13:48.039Z     at withConfigPlugins (/usr/lib/node_modules/eas-cli/node_modules/@expo/config/build/plugins/withConfigPlugins.js:35:47)
+2025-12-07T01:13:48.039Z     at fillAndReturnConfig (/usr/lib/node_modules/eas-cli/node_modules/@expo/config/build/Config.js:236:78)
+2025-12-07T01:13:48.039Z     at getConfig (/usr/lib/node_modules/eas-cli/node_modules/@expo/config/build/Config.js:293:10)
+2025-12-07T10:27:03.621Z Error: Run this command inside a project directory.
+2025-12-07T10:27:03.621Z     at findProjectRootAsync (/usr/lib/node_modules/eas-cli/build/commandUtils/context/contextUtils/findProjectDirAndVerifyProjectSetupAsync.js:68:19)
+2025-12-07T10:27:03.621Z     at async findProjectDirAndVerifyProjectSetupAsync (/usr/lib/node_modules/eas-cli/build/commandUtils/context/contextUtils/findProjectDirAndVerifyProjectSetupAsync.js:96:24)
+2025-12-07T10:27:03.621Z     at async ProjectDirContextField.getValueAsync (/usr/lib/node_modules/eas-cli/build/commandUtils/context/ProjectDirContextField.js:8:16)
+2025-12-07T10:27:03.621Z     at async ProjectInit.getContextAsync (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:139:17)
+2025-12-07T10:27:03.621Z     at async ProjectInit.runAsync (/usr/lib/node_modules/eas-cli/build/commands/project/init.js:294:69)
+2025-12-07T10:27:03.621Z     at async ProjectInit.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-07T10:27:03.621Z     at async ProjectInit._run (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:80:22)
+2025-12-07T10:27:03.621Z     at async Config.runCommand (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/config/config.js:301:25)
+2025-12-07T12:01:28.267Z Error: adb executable doesn't seem to work. Please make sure Android Studio is installed on your device and ANDROID_HOME or ANDROID_SDK_ROOT env variables are set.
+2025-12-07T12:01:28.267Z spawn adb ENOENT
+2025-12-07T12:01:28.267Z     at assertExecutableExistsAsync (/usr/lib/node_modules/eas-cli/build/run/android/systemRequirements.js:15:15)
+2025-12-07T12:01:28.267Z     at async assertExecutablesExistAsync (/usr/lib/node_modules/eas-cli/build/run/android/systemRequirements.js:20:5)
+2025-12-07T12:01:28.267Z     at async runAppOnAndroidEmulatorAsync (/usr/lib/node_modules/eas-cli/build/run/android/run.js:9:5)
+2025-12-07T12:01:28.267Z     at async runAsync (/usr/lib/node_modules/eas-cli/build/run/run.js:15:9)
+2025-12-07T12:01:28.267Z     at async downloadAndRunAsync (/usr/lib/node_modules/eas-cli/build/build/runBuildAndSubmit.js:369:5)
+2025-12-07T12:01:28.267Z     at async maybeDownloadAndRunSimulatorBuildsAsync (/usr/lib/node_modules/eas-cli/build/build/runBuildAndSubmit.js:383:21)
+2025-12-07T12:01:28.267Z     at async runBuildAndSubmitAsync (/usr/lib/node_modules/eas-cli/build/build/runBuildAndSubmit.js:199:5)
+2025-12-07T12:01:28.267Z     at async Build.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/index.js:125:35)
+2025-12-07T12:01:28.267Z     at async Build.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-12T22:43:48.996Z Error: Unexpected arguments: --artifact, apk
+2025-12-12T22:43:48.996Z See more help with --help
+2025-12-12T22:43:48.996Z     at validateArgs (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:11:19)
+2025-12-12T22:43:48.996Z     at Object.validate (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:153:5)
+2025-12-12T22:43:48.996Z     at Object.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/index.js:30:13)
+2025-12-12T22:43:48.996Z     at async Build.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:166:25)
+2025-12-12T22:43:48.996Z     at async Build.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/index.js:109:37)
+2025-12-12T22:43:48.996Z     at async Build.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-12T22:43:48.996Z     at async Build._run (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:80:22)
+2025-12-12T22:43:48.996Z     at async Config.runCommand (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/config/config.js:301:25)
+2025-12-12T23:07:27.903Z Error: Unexpected arguments: --artifact, apk
+2025-12-12T23:07:27.903Z See more help with --help
+2025-12-12T23:07:27.903Z     at validateArgs (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:11:19)
+2025-12-12T23:07:27.903Z     at Object.validate (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:153:5)
+2025-12-12T23:07:27.903Z     at Object.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/index.js:30:13)
+2025-12-12T23:07:27.903Z     at async Build.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:166:25)
+2025-12-12T23:07:27.903Z     at async Build.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/index.js:109:37)
+2025-12-12T23:07:27.903Z     at async Build.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-12T23:07:27.903Z     at async Build._run (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:80:22)
+2025-12-12T23:07:27.903Z     at async Config.runCommand (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/config/config.js:301:25)
+2025-12-12T23:14:30.793Z MissingProfileError: Missing build profile in eas.json: "apk". Available profiles: ["development", "preview", "production"]
+2025-12-12T23:14:30.793Z     at resolveProfile (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/build/resolver.js:23:19)
+2025-12-12T23:14:30.793Z     at resolveBuildProfile (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/build/resolver.js:7:28)
+2025-12-12T23:14:30.793Z     at EasJsonUtils.getBuildProfileAsync (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/utils.js:16:51)
+2025-12-12T23:14:30.793Z     at async readProfileWithOverridesAsync (/usr/lib/node_modules/eas-cli/build/utils/profiles.js:53:30)
+2025-12-12T23:14:30.793Z     at async /usr/lib/node_modules/eas-cli/build/utils/profiles.js:11:25
+2025-12-12T23:14:30.793Z     at async Promise.all (index 0)
+2025-12-12T23:14:30.793Z     at async getProfilesAsync (/usr/lib/node_modules/eas-cli/build/utils/profiles.js:24:12)
+2025-12-12T23:14:30.793Z     at async runBuildAndSubmitAsync (/usr/lib/node_modules/eas-cli/build/build/runBuildAndSubmit.js:59:27)
+2025-12-12T23:14:30.794Z     at async Build.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/index.js:125:35)
+2025-12-12T23:14:30.794Z     at async Build.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-12T23:52:00.624Z MissingProfileError: Missing build profile in eas.json: "apk". Available profiles: ["development", "preview", "production"]
+2025-12-12T23:52:00.624Z     at resolveProfile (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/build/resolver.js:23:19)
+2025-12-12T23:52:00.624Z     at resolveBuildProfile (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/build/resolver.js:7:28)
+2025-12-12T23:52:00.624Z     at EasJsonUtils.getBuildProfileAsync (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/utils.js:16:51)
+2025-12-12T23:52:00.624Z     at async readProfileWithOverridesAsync (/usr/lib/node_modules/eas-cli/build/utils/profiles.js:53:30)
+2025-12-12T23:52:00.624Z     at async /usr/lib/node_modules/eas-cli/build/utils/profiles.js:11:25
+2025-12-12T23:52:00.624Z     at async Promise.all (index 0)
+2025-12-12T23:52:00.624Z     at async getProfilesAsync (/usr/lib/node_modules/eas-cli/build/utils/profiles.js:24:12)
+2025-12-12T23:52:00.624Z     at async runBuildAndSubmitAsync (/usr/lib/node_modules/eas-cli/build/build/runBuildAndSubmit.js:59:27)
+2025-12-12T23:52:00.624Z     at async Build.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/index.js:125:35)
+2025-12-12T23:52:00.624Z     at async Build.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-12T23:58:26.331Z MissingProfileError: Missing build profile in eas.json: "apk". Available profiles: ["development", "preview", "production"]
+2025-12-12T23:58:26.331Z     at resolveProfile (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/build/resolver.js:23:19)
+2025-12-12T23:58:26.331Z     at resolveBuildProfile (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/build/resolver.js:7:28)
+2025-12-12T23:58:26.331Z     at EasJsonUtils.getBuildProfileAsync (/usr/lib/node_modules/eas-cli/node_modules/@expo/eas-json/build/utils.js:16:51)
+2025-12-12T23:58:26.331Z     at async readProfileWithOverridesAsync (/usr/lib/node_modules/eas-cli/build/utils/profiles.js:53:30)
+2025-12-12T23:58:26.331Z     at async /usr/lib/node_modules/eas-cli/build/utils/profiles.js:11:25
+2025-12-12T23:58:26.331Z     at async Promise.all (index 0)
+2025-12-12T23:58:26.331Z     at async getProfilesAsync (/usr/lib/node_modules/eas-cli/build/utils/profiles.js:24:12)
+2025-12-12T23:58:26.331Z     at async runBuildAndSubmitAsync (/usr/lib/node_modules/eas-cli/build/build/runBuildAndSubmit.js:59:27)
+2025-12-12T23:58:26.331Z     at async Build.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/index.js:125:35)
+2025-12-12T23:58:26.331Z     at async Build.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-13T20:59:35.102Z Error: The following errors occurred:
+2025-12-13T20:59:35.102Z   Missing required flag output
+2025-12-13T20:59:35.102Z   Missing required flag stage
+2025-12-13T20:59:35.102Z See more help with --help
+2025-12-13T20:59:35.102Z     at validateFlags (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:49:19)
+2025-12-13T20:59:35.102Z     at async Object.validate (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:154:5)
+2025-12-13T20:59:35.102Z     at async Object.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/index.js:30:5)
+2025-12-13T20:59:35.102Z     at async BuildInspect.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:166:25)
+2025-12-13T20:59:35.102Z     at async BuildInspect.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/inspect.js:68:27)
+2025-12-13T20:59:35.103Z     at async BuildInspect.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-13T20:59:35.103Z     at async BuildInspect._run (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:80:22)
+2025-12-13T20:59:35.103Z     at async Config.runCommand (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/config/config.js:301:25)
+2025-12-13T21:02:27.874Z Error: The following errors occurred:
+2025-12-13T21:02:27.874Z   Missing required flag output
+2025-12-13T21:02:27.874Z   Missing required flag stage
+2025-12-13T21:02:27.874Z See more help with --help
+2025-12-13T21:02:27.874Z     at validateFlags (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:49:19)
+2025-12-13T21:02:27.874Z     at async Object.validate (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/validate.js:154:5)
+2025-12-13T21:02:27.874Z     at async Object.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/parser/index.js:30:5)
+2025-12-13T21:02:27.874Z     at async BuildInspect.parse (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:166:25)
+2025-12-13T21:02:27.874Z     at async BuildInspect.runAsync (/usr/lib/node_modules/eas-cli/build/commands/build/inspect.js:68:27)
+2025-12-13T21:02:27.874Z     at async BuildInspect.run (/usr/lib/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-13T21:02:27.874Z     at async BuildInspect._run (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/command.js:80:22)
+2025-12-13T21:02:27.874Z     at async Config.runCommand (/usr/lib/node_modules/eas-cli/node_modules/@oclif/core/lib/config/config.js:301:25)
+2025-12-13T22:33:00.440Z Error: Aborted
+2025-12-13T22:33:00.440Z     at Object.error (~/node_modules/@oclif/core/lib/errors/index.js:28:15)
+2025-12-13T22:33:00.440Z     at AccountLogin.runAsync (~/node_modules/eas-cli/build/commands/account/login.js:37:31)
+2025-12-13T22:33:00.440Z     at async AccountLogin.run (~/node_modules/eas-cli/build/commandUtils/EasCommand.js:168:16)
+2025-12-13T22:33:00.440Z     at async AccountLogin._run (~/node_modules/@oclif/core/lib/command.js:80:22)
+2025-12-13T22:33:00.440Z     at async Config.runCommand (~/node_modules/@oclif/core/lib/config/config.js:301:25)
